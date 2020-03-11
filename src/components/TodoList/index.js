@@ -1,7 +1,7 @@
-import React,{useContext} from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
-import ThemeContext from '../../styles/themes/context';
+
 
 const List = styled.ul`
   background: ${props => props.theme.background};
